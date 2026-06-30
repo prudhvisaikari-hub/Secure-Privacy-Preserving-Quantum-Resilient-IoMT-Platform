@@ -1,0 +1,1081 @@
+{
+  "stm32": [
+    {
+      "scheme": "Kyber512",
+      "platform": "STM32F446RE@180MHz",
+      "keygen_ms": 11.0152,
+      "encaps_ms": 13.1221,
+      "decaps_ms": 14.1953,
+      "total_ms": 38.3326,
+      "ram_kb": 6.2,
+      "stack_kb": 2.1,
+      "code_kb": 18.4,
+      "energy_uj": 5766.289,
+      "pq_secure": true,
+      "speedup_vs_rsa2048": 147.8
+    },
+    {
+      "scheme": "Kyber768",
+      "platform": "STM32F446RE@180MHz",
+      "keygen_ms": 17.9433,
+      "encaps_ms": 20.9946,
+      "decaps_ms": 23.3592,
+      "total_ms": 62.2971,
+      "ram_kb": 7.8,
+      "stack_kb": 2.6,
+      "code_kb": 19.1,
+      "energy_uj": 9426.425,
+      "pq_secure": true,
+      "speedup_vs_rsa2048": 90.8
+    },
+    {
+      "scheme": "Kyber1024",
+      "platform": "STM32F446RE@180MHz",
+      "keygen_ms": 25.8055,
+      "encaps_ms": 31.3814,
+      "decaps_ms": 31.7857,
+      "total_ms": 88.9726,
+      "ram_kb": 9.4,
+      "stack_kb": 3.1,
+      "code_kb": 19.9,
+      "energy_uj": 13504.636,
+      "pq_secure": true,
+      "speedup_vs_rsa2048": 63.1
+    },
+    {
+      "scheme": "RSA-2048",
+      "platform": "STM32F446RE@180MHz",
+      "keygen_ms": 1628.4712,
+      "encaps_ms": 32.9279,
+      "decaps_ms": 648.7907,
+      "total_ms": 2310.1898,
+      "ram_kb": 42.0,
+      "stack_kb": 8.4,
+      "code_kb": 88.3,
+      "energy_uj": 381629.452,
+      "pq_secure": false,
+      "speedup_vs_rsa2048": 1.0
+    },
+    {
+      "scheme": "RSA-4096",
+      "platform": "STM32F446RE@180MHz",
+      "keygen_ms": 10982.8808,
+      "encaps_ms": 67.6557,
+      "decaps_ms": 2521.7794,
+      "total_ms": 13572.3159,
+      "ram_kb": 74.0,
+      "stack_kb": 14.2,
+      "code_kb": 88.3,
+      "energy_uj": 2238479.661,
+      "pq_secure": false,
+      "speedup_vs_rsa2048": 0.1
+    },
+    {
+      "scheme": "ECC-P256",
+      "platform": "STM32F446RE@180MHz",
+      "keygen_ms": 9.5886,
+      "encaps_ms": 17.7394,
+      "decaps_ms": 0.0,
+      "total_ms": 27.328,
+      "ram_kb": 5.1,
+      "stack_kb": 1.8,
+      "code_kb": 22.1,
+      "energy_uj": 3982.781,
+      "pq_secure": false,
+      "speedup_vs_rsa2048": 169.8
+    },
+    {
+      "scheme": "ECC-P384",
+      "platform": "STM32F446RE@180MHz",
+      "keygen_ms": 17.4207,
+      "encaps_ms": 33.0973,
+      "decaps_ms": 0.0,
+      "total_ms": 50.518,
+      "ram_kb": 5.6,
+      "stack_kb": 2.2,
+      "code_kb": 23.4,
+      "energy_uj": 7310.551,
+      "pq_secure": false,
+      "speedup_vs_rsa2048": 93.5
+    }
+  ],
+  "rpi4b": [
+    {
+      "scheme": "Kyber512",
+      "platform": "RPi4B_CA72@1.8GHz",
+      "keygen_ms": 0.3135,
+      "encaps_ms": 0.3839,
+      "decaps_ms": 0.3975,
+      "total_ms": 1.0948,
+      "energy_uj": 1970.6583,
+      "pk_bytes": 800,
+      "sk_bytes": 1632,
+      "ct_bytes": 768,
+      "backend": "oqs_calibrated"
+    },
+    {
+      "scheme": "Kyber768",
+      "platform": "RPi4B_CA72@1.8GHz",
+      "keygen_ms": 0.5265,
+      "encaps_ms": 0.6356,
+      "decaps_ms": 0.6659,
+      "total_ms": 1.828,
+      "energy_uj": 3290.4864,
+      "pk_bytes": 1184,
+      "sk_bytes": 2400,
+      "ct_bytes": 1088,
+      "backend": "oqs_calibrated"
+    },
+    {
+      "scheme": "Kyber1024",
+      "platform": "RPi4B_CA72@1.8GHz",
+      "keygen_ms": 0.7176,
+      "encaps_ms": 0.8872,
+      "decaps_ms": 0.9065,
+      "total_ms": 2.5113,
+      "energy_uj": 4520.3783,
+      "pk_bytes": 1568,
+      "sk_bytes": 3168,
+      "ct_bytes": 1568,
+      "backend": "oqs_calibrated"
+    },
+    {
+      "scheme": "RSA-2048",
+      "platform": "RPi4B_CA72@1.8GHz",
+      "keygen_ms": 55.4169,
+      "encaps_ms": 0.951,
+      "decaps_ms": 18.24,
+      "total_ms": 74.6079,
+      "energy_uj": 134294.2406,
+      "pk_bytes": 294,
+      "sk_bytes": 1192,
+      "ct_bytes": 256,
+      "backend": "cryptography_lib"
+    },
+    {
+      "scheme": "RSA-4096",
+      "platform": "RPi4B_CA72@1.8GHz",
+      "keygen_ms": 617.2684,
+      "encaps_ms": 1.802,
+      "decaps_ms": 72.11,
+      "total_ms": 691.1804,
+      "energy_uj": 1244124.6602,
+      "pk_bytes": 550,
+      "sk_bytes": 2350,
+      "ct_bytes": 512,
+      "backend": "cryptography_lib"
+    },
+    {
+      "scheme": "ECC-P256",
+      "platform": "RPi4B_CA72@1.8GHz",
+      "keygen_ms": 0.0701,
+      "encaps_ms": 0.124,
+      "decaps_ms": 0.0,
+      "total_ms": 0.1941,
+      "energy_uj": 349.3878,
+      "pk_bytes": 91,
+      "sk_bytes": 121,
+      "ct_bytes": 91,
+      "backend": "cryptography_lib"
+    },
+    {
+      "scheme": "ECC-P384",
+      "platform": "RPi4B_CA72@1.8GHz",
+      "keygen_ms": 0.1912,
+      "encaps_ms": 0.484,
+      "decaps_ms": 0.0,
+      "total_ms": 0.6752,
+      "energy_uj": 1215.3704,
+      "pk_bytes": 120,
+      "sk_bytes": 167,
+      "ct_bytes": 120,
+      "backend": "cryptography_lib"
+    }
+  ],
+  "rpi_pico": [
+    {
+      "scheme": "Kyber512",
+      "platform": "RPiPico_M0+@133MHz",
+      "keygen_ms": 39.124,
+      "encaps_ms": 48.117,
+      "decaps_ms": 52.243,
+      "energy_uj": 11967.727,
+      "ram_kb": 6.2,
+      "fits_sram": true
+    },
+    {
+      "scheme": "Kyber768",
+      "platform": "RPiPico_M0+@133MHz",
+      "keygen_ms": 66.907,
+      "encaps_ms": 75.353,
+      "decaps_ms": 84.067,
+      "energy_uj": 19418.857,
+      "ram_kb": 7.8,
+      "fits_sram": true
+    },
+    {
+      "scheme": "Kyber1024",
+      "platform": "RPiPico_M0+@133MHz",
+      "keygen_ms": 93.427,
+      "encaps_ms": 111.702,
+      "decaps_ms": 112.729,
+      "energy_uj": 27272.216,
+      "ram_kb": 9.4,
+      "fits_sram": true
+    },
+    {
+      "scheme": "ECC-P256",
+      "platform": "RPiPico_M0+@133MHz",
+      "keygen_ms": 34.728,
+      "encaps_ms": 63.288,
+      "decaps_ms": 0.0,
+      "energy_uj": 8409.773,
+      "ram_kb": 5.1,
+      "fits_sram": true
+    },
+    {
+      "scheme": "ECC-P384",
+      "platform": "RPiPico_M0+@133MHz",
+      "keygen_ms": 63.83,
+      "encaps_ms": 119.593,
+      "decaps_ms": 0.0,
+      "energy_uj": 15737.693,
+      "ram_kb": 5.6,
+      "fits_sram": true
+    }
+  ],
+  "ina219_stm32": [
+    {
+      "op": "kyber512_keygen",
+      "platform": "stm32f446",
+      "elapsed_ms": 12.1,
+      "current_ma": 46.601,
+      "power_mw": 153.783,
+      "energy_uj": 1860.7695
+    },
+    {
+      "op": "kyber512_encaps",
+      "platform": "stm32f446",
+      "elapsed_ms": 14.8,
+      "current_ma": 45.486,
+      "power_mw": 150.105,
+      "energy_uj": 2221.5558
+    },
+    {
+      "op": "kyber512_decaps",
+      "platform": "stm32f446",
+      "elapsed_ms": 15.6,
+      "current_ma": 46.314,
+      "power_mw": 152.836,
+      "energy_uj": 2384.2474
+    },
+    {
+      "op": "kyber768_keygen",
+      "platform": "stm32f446",
+      "elapsed_ms": 19.8,
+      "current_ma": 46.208,
+      "power_mw": 152.485,
+      "energy_uj": 3019.2036
+    },
+    {
+      "op": "kyber768_encaps",
+      "platform": "stm32f446",
+      "elapsed_ms": 24.1,
+      "current_ma": 46.302,
+      "power_mw": 152.795,
+      "energy_uj": 3682.3687
+    },
+    {
+      "op": "kyber768_decaps",
+      "platform": "stm32f446",
+      "elapsed_ms": 25.3,
+      "current_ma": 46.903,
+      "power_mw": 154.781,
+      "energy_uj": 3915.9697
+    },
+    {
+      "op": "kyber1024_keygen",
+      "platform": "stm32f446",
+      "elapsed_ms": 28.4,
+      "current_ma": 46.306,
+      "power_mw": 152.81,
+      "energy_uj": 4339.8129
+    },
+    {
+      "op": "kyber1024_encaps",
+      "platform": "stm32f446",
+      "elapsed_ms": 34.5,
+      "current_ma": 46.726,
+      "power_mw": 154.196,
+      "energy_uj": 5319.7504
+    },
+    {
+      "op": "kyber1024_decaps",
+      "platform": "stm32f446",
+      "elapsed_ms": 36.2,
+      "current_ma": 46.162,
+      "power_mw": 152.336,
+      "energy_uj": 5514.5493
+    },
+    {
+      "op": "rsa2048_keygen",
+      "platform": "stm32f446",
+      "elapsed_ms": 1842.0,
+      "current_ma": 50.591,
+      "power_mw": 166.95,
+      "energy_uj": 307521.5658
+    },
+    {
+      "op": "rsa2048_encaps",
+      "platform": "stm32f446",
+      "elapsed_ms": 37.2,
+      "current_ma": 50.935,
+      "power_mw": 168.086,
+      "energy_uj": 6252.7899
+    },
+    {
+      "op": "rsa2048_decaps",
+      "platform": "stm32f446",
+      "elapsed_ms": 712.0,
+      "current_ma": 48.834,
+      "power_mw": 161.153,
+      "energy_uj": 114740.6043
+    },
+    {
+      "op": "ecc_p256_keygen",
+      "platform": "stm32f446",
+      "elapsed_ms": 10.9,
+      "current_ma": 45.805,
+      "power_mw": 151.157,
+      "energy_uj": 1647.6153
+    },
+    {
+      "op": "ecc_p256_exchange",
+      "platform": "stm32f446",
+      "elapsed_ms": 19.8,
+      "current_ma": 45.666,
+      "power_mw": 150.699,
+      "energy_uj": 2983.8371
+    },
+    {
+      "op": "aes256_gcm",
+      "platform": "stm32f446",
+      "elapsed_ms": 0.18,
+      "current_ma": 41.463,
+      "power_mw": 136.829,
+      "energy_uj": 24.6292
+    }
+  ],
+  "ina219_rpi4b": [
+    {
+      "op": "kyber512_keygen",
+      "platform": "rpi4b",
+      "elapsed_ms": 0.3025,
+      "current_ma": 435.59,
+      "power_mw": 2177.949,
+      "energy_uj": 658.8295
+    },
+    {
+      "op": "kyber512_encaps",
+      "platform": "rpi4b",
+      "elapsed_ms": 0.37,
+      "current_ma": 451.096,
+      "power_mw": 2255.478,
+      "energy_uj": 834.527
+    },
+    {
+      "op": "kyber512_decaps",
+      "platform": "rpi4b",
+      "elapsed_ms": 0.39,
+      "current_ma": 430.415,
+      "power_mw": 2152.077,
+      "energy_uj": 839.3099
+    },
+    {
+      "op": "kyber768_keygen",
+      "platform": "rpi4b",
+      "elapsed_ms": 0.495,
+      "current_ma": 446.482,
+      "power_mw": 2232.411,
+      "energy_uj": 1105.0432
+    },
+    {
+      "op": "kyber768_encaps",
+      "platform": "rpi4b",
+      "elapsed_ms": 0.6025,
+      "current_ma": 423.258,
+      "power_mw": 2116.29,
+      "energy_uj": 1275.0649
+    },
+    {
+      "op": "kyber768_decaps",
+      "platform": "rpi4b",
+      "elapsed_ms": 0.6325,
+      "current_ma": 435.066,
+      "power_mw": 2175.332,
+      "energy_uj": 1375.8975
+    },
+    {
+      "op": "kyber1024_keygen",
+      "platform": "rpi4b",
+      "elapsed_ms": 0.71,
+      "current_ma": 439.426,
+      "power_mw": 2197.129,
+      "energy_uj": 1559.9613
+    },
+    {
+      "op": "kyber1024_encaps",
+      "platform": "rpi4b",
+      "elapsed_ms": 0.8625,
+      "current_ma": 443.135,
+      "power_mw": 2215.677,
+      "energy_uj": 1911.021
+    },
+    {
+      "op": "kyber1024_decaps",
+      "platform": "rpi4b",
+      "elapsed_ms": 0.905,
+      "current_ma": 444.23,
+      "power_mw": 2221.152,
+      "energy_uj": 2010.1423
+    },
+    {
+      "op": "rsa2048_keygen",
+      "platform": "rpi4b",
+      "elapsed_ms": 46.05,
+      "current_ma": 462.219,
+      "power_mw": 2311.097,
+      "energy_uj": 106426.0306
+    },
+    {
+      "op": "rsa2048_encaps",
+      "platform": "rpi4b",
+      "elapsed_ms": 0.93,
+      "current_ma": 451.827,
+      "power_mw": 2259.133,
+      "energy_uj": 2100.9937
+    },
+    {
+      "op": "rsa2048_decaps",
+      "platform": "rpi4b",
+      "elapsed_ms": 17.8,
+      "current_ma": 450.793,
+      "power_mw": 2253.963,
+      "energy_uj": 40120.5413
+    },
+    {
+      "op": "ecc_p256_keygen",
+      "platform": "rpi4b",
+      "elapsed_ms": 0.2725,
+      "current_ma": 445.516,
+      "power_mw": 2227.579,
+      "energy_uj": 607.0154
+    },
+    {
+      "op": "ecc_p256_exchange",
+      "platform": "rpi4b",
+      "elapsed_ms": 0.495,
+      "current_ma": 436.324,
+      "power_mw": 2181.621,
+      "energy_uj": 1079.9023
+    },
+    {
+      "op": "aes256_gcm",
+      "platform": "rpi4b",
+      "elapsed_ms": 0.0045,
+      "current_ma": 409.284,
+      "power_mw": 2046.421,
+      "energy_uj": 9.2089
+    }
+  ],
+  "tvla": {
+    "Kyber512": {
+      "max_t": 6.869,
+      "n_leaking": 131,
+      "verdict": "LEAKING"
+    },
+    "RSA2048": {
+      "max_t": 2.833,
+      "n_leaking": 0,
+      "verdict": "CONSTANT-TIME OK"
+    },
+    "ECCP256": {
+      "max_t": 3.065,
+      "n_leaking": 0,
+      "verdict": "CONSTANT-TIME OK"
+    },
+    "AES256": {
+      "max_t": 8.876,
+      "n_leaking": 19,
+      "verdict": "LEAKING"
+    }
+  },
+  "secure_channel": [
+    {
+      "variant": "Kyber512",
+      "hs_mean_ms": 1.8515,
+      "hs_p95_ms": 1.8739,
+      "throughput_pps": 3379.2,
+      "wire_bytes": 1760,
+      "realtime_ok": true,
+      "iterations": 100
+    },
+    {
+      "variant": "Kyber768",
+      "hs_mean_ms": 2.6087,
+      "hs_p95_ms": 2.637,
+      "throughput_pps": 3203.9,
+      "wire_bytes": 2464,
+      "realtime_ok": true,
+      "iterations": 100
+    },
+    {
+      "variant": "Kyber1024",
+      "hs_mean_ms": 3.4426,
+      "hs_p95_ms": 3.4812,
+      "throughput_pps": 2981.3,
+      "wire_bytes": 3328,
+      "realtime_ok": true,
+      "iterations": 100
+    },
+    {
+      "variant": "RSA-2048",
+      "hs_mean_ms": 68.5846,
+      "hs_p95_ms": 70.0704,
+      "throughput_pps": 874.1,
+      "wire_bytes": 710,
+      "realtime_ok": false,
+      "iterations": 100
+    }
+  ],
+  "fl": {
+    "n_rounds": 50,
+    "n_clients": 5,
+    "n_patients_per_hosp": 500,
+    "local_epochs": 3,
+    "dp_enabled": true,
+    "model_params": 285000,
+    "model_size_kb": 1113.28,
+    "per_round": {
+      "train_ms": 4019.22,
+      "upload_ms": 91.698,
+      "server_ms": 0.568,
+      "download_ms": 91.7,
+      "total_ms": 4203.19,
+      "energy_j": 105.0655
+    },
+    "total": {
+      "wall_time_min": 3.5,
+      "total_energy_kj": 5.2533,
+      "total_comm_mb": 543.59,
+      "electricity_kwh": 0.001459
+    },
+    "dp_comparison": {
+      "with_dp_total_ms": 4203.19,
+      "without_dp_total_ms": 3160.29,
+      "dp_time_overhead_pct": 33.0
+    },
+    "round_details": [
+      {
+        "round": 1,
+        "train_ms": 4196.41,
+        "upload_ms": 91.712,
+        "server_ms": 0.559,
+        "download_ms": 91.686,
+        "total_ms": 4380.37,
+        "energy_j": 109.4953,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 2,
+        "train_ms": 3969.98,
+        "upload_ms": 91.712,
+        "server_ms": 0.577,
+        "download_ms": 91.69,
+        "total_ms": 4153.96,
+        "energy_j": 103.8346,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 3,
+        "train_ms": 3951.36,
+        "upload_ms": 91.7,
+        "server_ms": 0.56,
+        "download_ms": 91.704,
+        "total_ms": 4135.33,
+        "energy_j": 103.3692,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 4,
+        "train_ms": 4091.18,
+        "upload_ms": 91.702,
+        "server_ms": 0.554,
+        "download_ms": 91.703,
+        "total_ms": 4275.13,
+        "energy_j": 106.8645,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 5,
+        "train_ms": 4177.45,
+        "upload_ms": 91.687,
+        "server_ms": 0.57,
+        "download_ms": 91.707,
+        "total_ms": 4361.42,
+        "energy_j": 109.0211,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 6,
+        "train_ms": 4008.96,
+        "upload_ms": 91.698,
+        "server_ms": 0.554,
+        "download_ms": 91.7,
+        "total_ms": 4192.91,
+        "energy_j": 104.8089,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 7,
+        "train_ms": 4053.59,
+        "upload_ms": 91.694,
+        "server_ms": 0.582,
+        "download_ms": 91.697,
+        "total_ms": 4237.56,
+        "energy_j": 105.9244,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 8,
+        "train_ms": 3928.19,
+        "upload_ms": 91.693,
+        "server_ms": 0.565,
+        "download_ms": 91.685,
+        "total_ms": 4112.13,
+        "energy_j": 102.7892,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 9,
+        "train_ms": 4030.34,
+        "upload_ms": 91.689,
+        "server_ms": 0.578,
+        "download_ms": 91.707,
+        "total_ms": 4214.32,
+        "energy_j": 105.3434,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 10,
+        "train_ms": 4166.0,
+        "upload_ms": 91.693,
+        "server_ms": 0.553,
+        "download_ms": 91.697,
+        "total_ms": 4349.94,
+        "energy_j": 108.7347,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 11,
+        "train_ms": 4093.78,
+        "upload_ms": 91.685,
+        "server_ms": 0.582,
+        "download_ms": 91.692,
+        "total_ms": 4277.74,
+        "energy_j": 106.929,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 12,
+        "train_ms": 4128.66,
+        "upload_ms": 91.696,
+        "server_ms": 0.559,
+        "download_ms": 91.7,
+        "total_ms": 4312.62,
+        "energy_j": 107.8015,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 13,
+        "train_ms": 4175.33,
+        "upload_ms": 91.697,
+        "server_ms": 0.585,
+        "download_ms": 91.698,
+        "total_ms": 4359.31,
+        "energy_j": 108.9682,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 14,
+        "train_ms": 4088.94,
+        "upload_ms": 91.686,
+        "server_ms": 0.559,
+        "download_ms": 91.692,
+        "total_ms": 4272.87,
+        "energy_j": 106.8079,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 15,
+        "train_ms": 3862.59,
+        "upload_ms": 91.703,
+        "server_ms": 0.559,
+        "download_ms": 91.71,
+        "total_ms": 4046.57,
+        "energy_j": 101.1502,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 16,
+        "train_ms": 4025.07,
+        "upload_ms": 91.715,
+        "server_ms": 0.57,
+        "download_ms": 91.686,
+        "total_ms": 4209.04,
+        "energy_j": 105.2117,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 17,
+        "train_ms": 4113.63,
+        "upload_ms": 91.714,
+        "server_ms": 0.584,
+        "download_ms": 91.688,
+        "total_ms": 4297.62,
+        "energy_j": 107.4258,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 18,
+        "train_ms": 4133.55,
+        "upload_ms": 91.707,
+        "server_ms": 0.572,
+        "download_ms": 91.705,
+        "total_ms": 4317.53,
+        "energy_j": 107.9239,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 19,
+        "train_ms": 3839.06,
+        "upload_ms": 91.696,
+        "server_ms": 0.574,
+        "download_ms": 91.705,
+        "total_ms": 4023.03,
+        "energy_j": 100.5615,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 20,
+        "train_ms": 3905.14,
+        "upload_ms": 91.709,
+        "server_ms": 0.574,
+        "download_ms": 91.714,
+        "total_ms": 4089.14,
+        "energy_j": 102.2141,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 21,
+        "train_ms": 4025.28,
+        "upload_ms": 91.698,
+        "server_ms": 0.57,
+        "download_ms": 91.712,
+        "total_ms": 4209.26,
+        "energy_j": 105.2174,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 22,
+        "train_ms": 3964.38,
+        "upload_ms": 91.693,
+        "server_ms": 0.562,
+        "download_ms": 91.714,
+        "total_ms": 4148.35,
+        "energy_j": 103.6946,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 23,
+        "train_ms": 4004.35,
+        "upload_ms": 91.711,
+        "server_ms": 0.568,
+        "download_ms": 91.689,
+        "total_ms": 4188.31,
+        "energy_j": 104.6937,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 24,
+        "train_ms": 4087.05,
+        "upload_ms": 91.695,
+        "server_ms": 0.58,
+        "download_ms": 91.71,
+        "total_ms": 4271.04,
+        "energy_j": 106.7614,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 25,
+        "train_ms": 3940.89,
+        "upload_ms": 91.696,
+        "server_ms": 0.583,
+        "download_ms": 91.711,
+        "total_ms": 4124.88,
+        "energy_j": 103.1073,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 26,
+        "train_ms": 3866.04,
+        "upload_ms": 91.704,
+        "server_ms": 0.553,
+        "download_ms": 91.709,
+        "total_ms": 4050.01,
+        "energy_j": 101.2364,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 27,
+        "train_ms": 3937.47,
+        "upload_ms": 91.696,
+        "server_ms": 0.563,
+        "download_ms": 91.704,
+        "total_ms": 4121.44,
+        "energy_j": 103.0218,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 28,
+        "train_ms": 4191.93,
+        "upload_ms": 91.696,
+        "server_ms": 0.557,
+        "download_ms": 91.702,
+        "total_ms": 4375.88,
+        "energy_j": 109.3831,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 29,
+        "train_ms": 4015.4,
+        "upload_ms": 91.704,
+        "server_ms": 0.564,
+        "download_ms": 91.686,
+        "total_ms": 4199.35,
+        "energy_j": 104.9696,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 30,
+        "train_ms": 4011.5,
+        "upload_ms": 91.696,
+        "server_ms": 0.567,
+        "download_ms": 91.7,
+        "total_ms": 4195.46,
+        "energy_j": 104.8723,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 31,
+        "train_ms": 4120.96,
+        "upload_ms": 91.692,
+        "server_ms": 0.575,
+        "download_ms": 91.712,
+        "total_ms": 4304.93,
+        "energy_j": 107.609,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 32,
+        "train_ms": 4194.28,
+        "upload_ms": 91.686,
+        "server_ms": 0.582,
+        "download_ms": 91.71,
+        "total_ms": 4378.26,
+        "energy_j": 109.4419,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 33,
+        "train_ms": 4190.82,
+        "upload_ms": 91.705,
+        "server_ms": 0.572,
+        "download_ms": 91.699,
+        "total_ms": 4374.8,
+        "energy_j": 109.3557,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 34,
+        "train_ms": 3863.65,
+        "upload_ms": 91.701,
+        "server_ms": 0.572,
+        "download_ms": 91.689,
+        "total_ms": 4047.61,
+        "energy_j": 101.176,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 35,
+        "train_ms": 4116.24,
+        "upload_ms": 91.695,
+        "server_ms": 0.558,
+        "download_ms": 91.703,
+        "total_ms": 4300.19,
+        "energy_j": 107.4909,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 36,
+        "train_ms": 3847.52,
+        "upload_ms": 91.694,
+        "server_ms": 0.579,
+        "download_ms": 91.697,
+        "total_ms": 4031.49,
+        "energy_j": 100.7728,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 37,
+        "train_ms": 3822.1,
+        "upload_ms": 91.696,
+        "server_ms": 0.564,
+        "download_ms": 91.697,
+        "total_ms": 4006.06,
+        "energy_j": 100.1373,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 38,
+        "train_ms": 4109.65,
+        "upload_ms": 91.689,
+        "server_ms": 0.556,
+        "download_ms": 91.704,
+        "total_ms": 4293.6,
+        "energy_j": 107.3261,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 39,
+        "train_ms": 4071.77,
+        "upload_ms": 91.697,
+        "server_ms": 0.555,
+        "download_ms": 91.711,
+        "total_ms": 4255.73,
+        "energy_j": 106.3794,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 40,
+        "train_ms": 3993.85,
+        "upload_ms": 91.7,
+        "server_ms": 0.561,
+        "download_ms": 91.699,
+        "total_ms": 4177.81,
+        "energy_j": 104.4313,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 41,
+        "train_ms": 3992.4,
+        "upload_ms": 91.686,
+        "server_ms": 0.578,
+        "download_ms": 91.693,
+        "total_ms": 4176.35,
+        "energy_j": 104.3944,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 42,
+        "train_ms": 4131.94,
+        "upload_ms": 91.713,
+        "server_ms": 0.584,
+        "download_ms": 91.706,
+        "total_ms": 4315.94,
+        "energy_j": 107.8839,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 43,
+        "train_ms": 3861.79,
+        "upload_ms": 91.689,
+        "server_ms": 0.564,
+        "download_ms": 91.691,
+        "total_ms": 4045.73,
+        "energy_j": 101.1292,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 44,
+        "train_ms": 4017.96,
+        "upload_ms": 91.707,
+        "server_ms": 0.575,
+        "download_ms": 91.705,
+        "total_ms": 4201.95,
+        "energy_j": 105.0343,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 45,
+        "train_ms": 3852.23,
+        "upload_ms": 91.704,
+        "server_ms": 0.573,
+        "download_ms": 91.694,
+        "total_ms": 4036.2,
+        "energy_j": 100.8906,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 46,
+        "train_ms": 3837.81,
+        "upload_ms": 91.705,
+        "server_ms": 0.564,
+        "download_ms": 91.701,
+        "total_ms": 4021.78,
+        "energy_j": 100.5304,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 47,
+        "train_ms": 3910.35,
+        "upload_ms": 91.694,
+        "server_ms": 0.573,
+        "download_ms": 91.702,
+        "total_ms": 4094.32,
+        "energy_j": 102.3438,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 48,
+        "train_ms": 4073.61,
+        "upload_ms": 91.699,
+        "server_ms": 0.554,
+        "download_ms": 91.708,
+        "total_ms": 4257.57,
+        "energy_j": 106.4254,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 49,
+        "train_ms": 3877.57,
+        "upload_ms": 91.702,
+        "server_ms": 0.557,
+        "download_ms": 91.69,
+        "total_ms": 4061.52,
+        "energy_j": 101.5239,
+        "bytes_transferred": 11400000
+      },
+      {
+        "round": 50,
+        "train_ms": 4091.01,
+        "upload_ms": 91.69,
+        "server_ms": 0.585,
+        "download_ms": 91.692,
+        "total_ms": 4274.97,
+        "energy_j": 106.8597,
+        "bytes_transferred": 11400000
+      }
+    ]
+  }
+}

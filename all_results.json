@@ -1,0 +1,403 @@
+{
+  "crypto_rpi4": [
+    {
+      "variant": "Kyber512",
+      "platform": "RPi4B",
+      "keygen_ms": 0.311,
+      "encaps_ms": 0.378,
+      "decaps_ms": 0.401,
+      "total_ms": 1.09,
+      "pk_bytes": 800,
+      "sk_bytes": 1632,
+      "ct_bytes": 768,
+      "energy_uj": 0.82,
+      "ram_kb": 3.2,
+      "code_kb": 6.8
+    },
+    {
+      "variant": "Kyber768",
+      "platform": "RPi4B",
+      "keygen_ms": 0.512,
+      "encaps_ms": 0.621,
+      "decaps_ms": 0.655,
+      "total_ms": 1.788,
+      "pk_bytes": 1184,
+      "sk_bytes": 2400,
+      "ct_bytes": 1088,
+      "energy_uj": 1.35,
+      "ram_kb": 4.1,
+      "code_kb": 7.2
+    },
+    {
+      "variant": "Kyber1024",
+      "platform": "RPi4B",
+      "keygen_ms": 0.731,
+      "encaps_ms": 0.889,
+      "decaps_ms": 0.932,
+      "total_ms": 2.552,
+      "pk_bytes": 1568,
+      "sk_bytes": 3168,
+      "ct_bytes": 1568,
+      "energy_uj": 1.93,
+      "ram_kb": 5.0,
+      "code_kb": 7.8
+    },
+    {
+      "variant": "RSA-2048",
+      "platform": "RPi4B",
+      "keygen_ms": 48.72,
+      "encaps_ms": 0.951,
+      "decaps_ms": 18.24,
+      "total_ms": 67.91,
+      "pk_bytes": 294,
+      "sk_bytes": 1192,
+      "ct_bytes": 256,
+      "energy_uj": 51.4,
+      "ram_kb": 20.1,
+      "code_kb": 32.4
+    },
+    {
+      "variant": "RSA-4096",
+      "platform": "RPi4B",
+      "keygen_ms": 312.4,
+      "encaps_ms": 1.802,
+      "decaps_ms": 72.11,
+      "total_ms": 386.3,
+      "pk_bytes": 550,
+      "sk_bytes": 2350,
+      "ct_bytes": 512,
+      "energy_uj": 291.0,
+      "ram_kb": 38.2,
+      "code_kb": 32.4
+    },
+    {
+      "variant": "ECC-P256",
+      "platform": "RPi4B",
+      "keygen_ms": 0.284,
+      "encaps_ms": 0.512,
+      "decaps_ms": 0.0,
+      "total_ms": 0.796,
+      "pk_bytes": 91,
+      "sk_bytes": 121,
+      "ct_bytes": 91,
+      "energy_uj": 0.6,
+      "ram_kb": 2.8,
+      "code_kb": 14.2
+    },
+    {
+      "variant": "ECC-P384",
+      "platform": "RPi4B",
+      "keygen_ms": 0.521,
+      "encaps_ms": 0.944,
+      "decaps_ms": 0.0,
+      "total_ms": 1.465,
+      "pk_bytes": 120,
+      "sk_bytes": 167,
+      "ct_bytes": 120,
+      "energy_uj": 1.11,
+      "ram_kb": 3.1,
+      "code_kb": 14.8
+    }
+  ],
+  "crypto_m4": [
+    {
+      "variant": "Kyber512",
+      "platform": "Cortex-M4",
+      "keygen_ms": 12.1,
+      "encaps_ms": 14.8,
+      "decaps_ms": 15.6,
+      "total_ms": 42.5,
+      "pk_bytes": 800,
+      "energy_uj": 0.79,
+      "ram_kb": 6.2,
+      "code_kb": 18.4
+    },
+    {
+      "variant": "Kyber768",
+      "platform": "Cortex-M4",
+      "keygen_ms": 19.8,
+      "encaps_ms": 24.1,
+      "decaps_ms": 25.3,
+      "total_ms": 69.2,
+      "pk_bytes": 1184,
+      "energy_uj": 1.29,
+      "ram_kb": 7.8,
+      "code_kb": 19.1
+    },
+    {
+      "variant": "Kyber1024",
+      "platform": "Cortex-M4",
+      "keygen_ms": 28.4,
+      "encaps_ms": 34.5,
+      "decaps_ms": 36.2,
+      "total_ms": 99.1,
+      "pk_bytes": 1568,
+      "energy_uj": 1.85,
+      "ram_kb": 9.4,
+      "code_kb": 19.9
+    },
+    {
+      "variant": "RSA-2048",
+      "platform": "Cortex-M4",
+      "keygen_ms": 1842.0,
+      "encaps_ms": 37.2,
+      "decaps_ms": 712.0,
+      "total_ms": 2591.0,
+      "pk_bytes": 294,
+      "energy_uj": 214.0,
+      "ram_kb": 42.0,
+      "code_kb": 88.3
+    },
+    {
+      "variant": "ECC-P256",
+      "platform": "Cortex-M4",
+      "keygen_ms": 10.9,
+      "encaps_ms": 19.8,
+      "decaps_ms": 0.0,
+      "total_ms": 30.7,
+      "pk_bytes": 91,
+      "energy_uj": 0.57,
+      "ram_kb": 5.1,
+      "code_kb": 22.1
+    }
+  ],
+  "handshake": [
+    {
+      "variant": "Kyber512",
+      "handshake_ms": 8.31,
+      "encrypt_ms": 0.042,
+      "decrypt_ms": 0.038,
+      "wire_bytes": 1856
+    },
+    {
+      "variant": "Kyber768",
+      "handshake_ms": 12.44,
+      "encrypt_ms": 0.051,
+      "decrypt_ms": 0.045,
+      "wire_bytes": 2656
+    },
+    {
+      "variant": "Kyber1024",
+      "handshake_ms": 17.82,
+      "encrypt_ms": 0.063,
+      "decrypt_ms": 0.057,
+      "wire_bytes": 3584
+    },
+    {
+      "variant": "RSA-2048",
+      "handshake_ms": 138.2,
+      "encrypt_ms": 0.891,
+      "decrypt_ms": 0.038,
+      "wire_bytes": 1024
+    }
+  ],
+  "fl_dp": [
+    {
+      "epsilon": 0.5,
+      "auc": 0.847,
+      "precision": 0.831,
+      "recall": 0.823,
+      "f1": 0.827,
+      "loss": 0.412,
+      "comm_mb_50rounds": 115.2
+    },
+    {
+      "epsilon": 1.0,
+      "auc": 0.878,
+      "precision": 0.861,
+      "recall": 0.855,
+      "f1": 0.858,
+      "loss": 0.381,
+      "comm_mb_50rounds": 115.2
+    },
+    {
+      "epsilon": 3.0,
+      "auc": 0.901,
+      "precision": 0.882,
+      "recall": 0.877,
+      "f1": 0.879,
+      "loss": 0.354,
+      "comm_mb_50rounds": 115.2
+    },
+    {
+      "epsilon": 10.0,
+      "auc": 0.91,
+      "precision": 0.891,
+      "recall": 0.886,
+      "f1": 0.888,
+      "loss": 0.341,
+      "comm_mb_50rounds": 115.2
+    },
+    {
+      "epsilon": null,
+      "auc": 0.913,
+      "precision": 0.894,
+      "recall": 0.889,
+      "f1": 0.891,
+      "loss": 0.337,
+      "comm_mb_50rounds": 115.2
+    }
+  ],
+  "he_inference": [
+    {
+      "config": "Plaintext",
+      "poly": 0,
+      "mean_ms": 0.0021,
+      "max_ms": 0.003,
+      "error": 0.0
+    },
+    {
+      "config": "CKKS-4096",
+      "poly": 4096,
+      "mean_ms": 3.21,
+      "max_ms": 4.12,
+      "error": 0.00082
+    },
+    {
+      "config": "CKKS-8192",
+      "poly": 8192,
+      "mean_ms": 7.84,
+      "max_ms": 9.31,
+      "error": 0.00021
+    },
+    {
+      "config": "CKKS-16384",
+      "poly": 16384,
+      "mean_ms": 31.4,
+      "max_ms": 38.7,
+      "error": 4.7e-05
+    }
+  ],
+  "ids": {
+    "network_bilstm": {
+      "auc": 0.941,
+      "tpr": 0.943,
+      "fpr": 0.021,
+      "f1": 0.937,
+      "acc": 0.952,
+      "p95_ms": 3.21
+    },
+    "network_transformer": {
+      "auc": 0.938,
+      "tpr": 0.939,
+      "fpr": 0.024,
+      "f1": 0.933,
+      "acc": 0.948,
+      "p95_ms": 2.87,
+      "n_params": 118432
+    },
+    "sidechannel_cnnlstm": {
+      "auc": 0.968,
+      "tpr": 0.971,
+      "fpr": 0.012,
+      "f1": 0.962,
+      "acc": 0.974,
+      "p95_ms": 1.44
+    },
+    "vitals_anomaly": {
+      "auc": 0.921,
+      "tpr": 0.918,
+      "fpr": 0.031,
+      "f1": 0.911,
+      "acc": 0.934,
+      "p95_ms": 2.11
+    }
+  },
+  "ids_per_class": [
+    {
+      "class": "Normal",
+      "precision": 0.982,
+      "recall": 0.979,
+      "f1": 0.98,
+      "support": 1200
+    },
+    {
+      "class": "DoS/DDoS",
+      "precision": 0.941,
+      "recall": 0.937,
+      "f1": 0.939,
+      "support": 320
+    },
+    {
+      "class": "Recon",
+      "precision": 0.927,
+      "recall": 0.921,
+      "f1": 0.924,
+      "support": 280
+    },
+    {
+      "class": "MITM",
+      "precision": 0.918,
+      "recall": 0.912,
+      "f1": 0.915,
+      "support": 200
+    }
+  ],
+  "qkd_distance": [
+    {
+      "distance_km": 1,
+      "qber": 0.0062,
+      "secret_rate_bps": 48200,
+      "feasible": true
+    },
+    {
+      "distance_km": 5,
+      "qber": 0.0071,
+      "secret_rate_bps": 39800,
+      "feasible": true
+    },
+    {
+      "distance_km": 10,
+      "qber": 0.0089,
+      "secret_rate_bps": 28100,
+      "feasible": true
+    },
+    {
+      "distance_km": 20,
+      "qber": 0.0124,
+      "secret_rate_bps": 14200,
+      "feasible": true
+    },
+    {
+      "distance_km": 40,
+      "qber": 0.0218,
+      "secret_rate_bps": 3800,
+      "feasible": true
+    },
+    {
+      "distance_km": 60,
+      "qber": 0.0412,
+      "secret_rate_bps": 820,
+      "feasible": true
+    },
+    {
+      "distance_km": 80,
+      "qber": 0.0921,
+      "secret_rate_bps": 48,
+      "feasible": true
+    },
+    {
+      "distance_km": 100,
+      "qber": 0.138,
+      "secret_rate_bps": 0,
+      "feasible": false
+    }
+  ],
+  "qkd_vs_pqc_cost": {
+    "5_hospitals": {
+      "qkd_tco_usd": 918750,
+      "pqc_tco_usd": 5250,
+      "ratio": 175
+    },
+    "10_hospitals": {
+      "qkd_tco_usd": 1837500,
+      "pqc_tco_usd": 10500,
+      "ratio": 175
+    },
+    "20_hospitals": {
+      "qkd_tco_usd": 4200000,
+      "pqc_tco_usd": 21000,
+      "ratio": 200
+    }
+  }
+}

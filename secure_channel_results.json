@@ -1,0 +1,38 @@
+[
+  {
+    "variant": "Kyber512",
+    "hs_mean_ms": 1.8515,
+    "hs_p95_ms": 1.8739,
+    "throughput_pps": 3379.2,
+    "wire_bytes": 1760,
+    "realtime_ok": true,
+    "iterations": 100
+  },
+  {
+    "variant": "Kyber768",
+    "hs_mean_ms": 2.6087,
+    "hs_p95_ms": 2.637,
+    "throughput_pps": 3203.9,
+    "wire_bytes": 2464,
+    "realtime_ok": true,
+    "iterations": 100
+  },
+  {
+    "variant": "Kyber1024",
+    "hs_mean_ms": 3.4426,
+    "hs_p95_ms": 3.4812,
+    "throughput_pps": 2981.3,
+    "wire_bytes": 3328,
+    "realtime_ok": true,
+    "iterations": 100
+  },
+  {
+    "variant": "RSA-2048",
+    "hs_mean_ms": 68.5846,
+    "hs_p95_ms": 70.0704,
+    "throughput_pps": 874.1,
+    "wire_bytes": 710,
+    "realtime_ok": false,
+    "iterations": 100
+  }
+]

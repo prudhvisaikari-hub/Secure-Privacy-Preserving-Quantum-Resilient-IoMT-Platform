@@ -1,0 +1,22 @@
+{
+  "Kyber512": {
+    "max_t": 6.869,
+    "n_leaking": 131,
+    "verdict": "LEAKING"
+  },
+  "RSA2048": {
+    "max_t": 2.833,
+    "n_leaking": 0,
+    "verdict": "CONSTANT-TIME OK"
+  },
+  "ECCP256": {
+    "max_t": 3.065,
+    "n_leaking": 0,
+    "verdict": "CONSTANT-TIME OK"
+  },
+  "AES256": {
+    "max_t": 8.876,
+    "n_leaking": 19,
+    "verdict": "LEAKING"
+  }
+}

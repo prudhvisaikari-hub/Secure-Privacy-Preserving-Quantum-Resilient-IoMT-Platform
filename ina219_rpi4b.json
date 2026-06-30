@@ -1,0 +1,122 @@
+[
+  {
+    "op": "kyber512_keygen",
+    "platform": "rpi4b",
+    "elapsed_ms": 0.3025,
+    "current_ma": 435.59,
+    "power_mw": 2177.949,
+    "energy_uj": 658.8295
+  },
+  {
+    "op": "kyber512_encaps",
+    "platform": "rpi4b",
+    "elapsed_ms": 0.37,
+    "current_ma": 451.096,
+    "power_mw": 2255.478,
+    "energy_uj": 834.527
+  },
+  {
+    "op": "kyber512_decaps",
+    "platform": "rpi4b",
+    "elapsed_ms": 0.39,
+    "current_ma": 430.415,
+    "power_mw": 2152.077,
+    "energy_uj": 839.3099
+  },
+  {
+    "op": "kyber768_keygen",
+    "platform": "rpi4b",
+    "elapsed_ms": 0.495,
+    "current_ma": 446.482,
+    "power_mw": 2232.411,
+    "energy_uj": 1105.0432
+  },
+  {
+    "op": "kyber768_encaps",
+    "platform": "rpi4b",
+    "elapsed_ms": 0.6025,
+    "current_ma": 423.258,
+    "power_mw": 2116.29,
+    "energy_uj": 1275.0649
+  },
+  {
+    "op": "kyber768_decaps",
+    "platform": "rpi4b",
+    "elapsed_ms": 0.6325,
+    "current_ma": 435.066,
+    "power_mw": 2175.332,
+    "energy_uj": 1375.8975
+  },
+  {
+    "op": "kyber1024_keygen",
+    "platform": "rpi4b",
+    "elapsed_ms": 0.71,
+    "current_ma": 439.426,
+    "power_mw": 2197.129,
+    "energy_uj": 1559.9613
+  },
+  {
+    "op": "kyber1024_encaps",
+    "platform": "rpi4b",
+    "elapsed_ms": 0.8625,
+    "current_ma": 443.135,
+    "power_mw": 2215.677,
+    "energy_uj": 1911.021
+  },
+  {
+    "op": "kyber1024_decaps",
+    "platform": "rpi4b",
+    "elapsed_ms": 0.905,
+    "current_ma": 444.23,
+    "power_mw": 2221.152,
+    "energy_uj": 2010.1423
+  },
+  {
+    "op": "rsa2048_keygen",
+    "platform": "rpi4b",
+    "elapsed_ms": 46.05,
+    "current_ma": 462.219,
+    "power_mw": 2311.097,
+    "energy_uj": 106426.0306
+  },
+  {
+    "op": "rsa2048_encaps",
+    "platform": "rpi4b",
+    "elapsed_ms": 0.93,
+    "current_ma": 451.827,
+    "power_mw": 2259.133,
+    "energy_uj": 2100.9937
+  },
+  {
+    "op": "rsa2048_decaps",
+    "platform": "rpi4b",
+    "elapsed_ms": 17.8,
+    "current_ma": 450.793,
+    "power_mw": 2253.963,
+    "energy_uj": 40120.5413
+  },
+  {
+    "op": "ecc_p256_keygen",
+    "platform": "rpi4b",
+    "elapsed_ms": 0.2725,
+    "current_ma": 445.516,
+    "power_mw": 2227.579,
+    "energy_uj": 607.0154
+  },
+  {
+    "op": "ecc_p256_exchange",
+    "platform": "rpi4b",
+    "elapsed_ms": 0.495,
+    "current_ma": 436.324,
+    "power_mw": 2181.621,
+    "energy_uj": 1079.9023
+  },
+  {
+    "op": "aes256_gcm",
+    "platform": "rpi4b",
+    "elapsed_ms": 0.0045,
+    "current_ma": 409.284,
+    "power_mw": 2046.421,
+    "energy_uj": 9.2089
+  }
+]

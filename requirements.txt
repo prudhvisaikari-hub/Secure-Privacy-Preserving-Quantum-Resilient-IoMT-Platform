@@ -1,0 +1,93 @@
+# SPQR-IoMT Requirements
+# Install: pip install -r requirements.txt
+#
+# Hardware-specific notes:
+#   - liboqs must be built separately (see README.md for instructions)
+#   - Opacus requires PyTorch >= 2.0
+#   - TenSEAL requires Python 3.8-3.11
+#   - Flower (flwr) >= 1.5 for FedAvg strategy compatibility
+
+# ──────────────────────────────────────────────
+# Core ML / DL
+# ──────────────────────────────────────────────
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ──────────────────────────────────────────────
+# Federated Learning
+# ──────────────────────────────────────────────
+flwr>=1.5.0                   # Flower FL framework
+
+# ──────────────────────────────────────────────
+# Differential Privacy
+# ──────────────────────────────────────────────
+opacus>=1.4.0                 # DP-SGD for PyTorch
+autodp>=0.2                   # RDP / moments accountant (optional, for cross-validation)
+
+# ──────────────────────────────────────────────
+# Homomorphic Encryption
+# ──────────────────────────────────────────────
+tenseal>=0.3.14               # CKKS via Microsoft SEAL
+
+# ──────────────────────────────────────────────
+# Post-Quantum Cryptography (Python bindings)
+# ──────────────────────────────────────────────
+liboqs-python>=0.8.0          # Open Quantum Safe Python bindings for Kyber
+
+# ──────────────────────────────────────────────
+# Classical Cryptography
+# ──────────────────────────────────────────────
+cryptography>=41.0.0          # RSA, ECC, AES-GCM (hazmat)
+pycryptodome>=3.20.0          # Fallback AES/RSA
+
+# ──────────────────────────────────────────────
+# Data Science / ML utilities
+# ──────────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# ──────────────────────────────────────────────
+# Visualization (for experiment figures)
+# ──────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0                # Interactive plots for paper figures
+
+# ──────────────────────────────────────────────
+# Network / protocol
+# ──────────────────────────────────────────────
+scapy>=2.5.0                  # Packet crafting for testbed simulations
+
+# ──────────────────────────────────────────────
+# Hardware measurement
+# ──────────────────────────────────────────────
+adafruit-circuitpython-ina219>=1.3.9  # INA219 power sensor (RPi/embedded)
+smbus2>=0.4.2                         # I2C on Raspberry Pi
+
+# ──────────────────────────────────────────────
+# Dataset access
+# ──────────────────────────────────────────────
+wfdb>=4.1.0                   # PhysioNet WFDB format (MIMIC-IV waveforms)
+
+# ──────────────────────────────────────────────
+# Utilities
+# ──────────────────────────────────────────────
+tqdm>=4.65.0                  # Progress bars
+pyyaml>=6.0.1                 # Config files
+click>=8.1.0                  # CLI tools
+rich>=13.0.0                  # Rich terminal output
+tabulate>=0.9.0               # ASCII tables
+
+# ──────────────────────────────────────────────
+# Testing
+# ──────────────────────────────────────────────
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# ──────────────────────────────────────────────
+# Jupyter (for analysis notebooks)
+# ──────────────────────────────────────────────
+jupyter>=1.0.0
+ipywidgets>=8.0.0

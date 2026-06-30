@@ -1,0 +1,122 @@
+[
+  {
+    "op": "kyber512_keygen",
+    "platform": "stm32f446",
+    "elapsed_ms": 12.1,
+    "current_ma": 46.601,
+    "power_mw": 153.783,
+    "energy_uj": 1860.7695
+  },
+  {
+    "op": "kyber512_encaps",
+    "platform": "stm32f446",
+    "elapsed_ms": 14.8,
+    "current_ma": 45.486,
+    "power_mw": 150.105,
+    "energy_uj": 2221.5558
+  },
+  {
+    "op": "kyber512_decaps",
+    "platform": "stm32f446",
+    "elapsed_ms": 15.6,
+    "current_ma": 46.314,
+    "power_mw": 152.836,
+    "energy_uj": 2384.2474
+  },
+  {
+    "op": "kyber768_keygen",
+    "platform": "stm32f446",
+    "elapsed_ms": 19.8,
+    "current_ma": 46.208,
+    "power_mw": 152.485,
+    "energy_uj": 3019.2036
+  },
+  {
+    "op": "kyber768_encaps",
+    "platform": "stm32f446",
+    "elapsed_ms": 24.1,
+    "current_ma": 46.302,
+    "power_mw": 152.795,
+    "energy_uj": 3682.3687
+  },
+  {
+    "op": "kyber768_decaps",
+    "platform": "stm32f446",
+    "elapsed_ms": 25.3,
+    "current_ma": 46.903,
+    "power_mw": 154.781,
+    "energy_uj": 3915.9697
+  },
+  {
+    "op": "kyber1024_keygen",
+    "platform": "stm32f446",
+    "elapsed_ms": 28.4,
+    "current_ma": 46.306,
+    "power_mw": 152.81,
+    "energy_uj": 4339.8129
+  },
+  {
+    "op": "kyber1024_encaps",
+    "platform": "stm32f446",
+    "elapsed_ms": 34.5,
+    "current_ma": 46.726,
+    "power_mw": 154.196,
+    "energy_uj": 5319.7504
+  },
+  {
+    "op": "kyber1024_decaps",
+    "platform": "stm32f446",
+    "elapsed_ms": 36.2,
+    "current_ma": 46.162,
+    "power_mw": 152.336,
+    "energy_uj": 5514.5493
+  },
+  {
+    "op": "rsa2048_keygen",
+    "platform": "stm32f446",
+    "elapsed_ms": 1842.0,
+    "current_ma": 50.591,
+    "power_mw": 166.95,
+    "energy_uj": 307521.5658
+  },
+  {
+    "op": "rsa2048_encaps",
+    "platform": "stm32f446",
+    "elapsed_ms": 37.2,
+    "current_ma": 50.935,
+    "power_mw": 168.086,
+    "energy_uj": 6252.7899
+  },
+  {
+    "op": "rsa2048_decaps",
+    "platform": "stm32f446",
+    "elapsed_ms": 712.0,
+    "current_ma": 48.834,
+    "power_mw": 161.153,
+    "energy_uj": 114740.6043
+  },
+  {
+    "op": "ecc_p256_keygen",
+    "platform": "stm32f446",
+    "elapsed_ms": 10.9,
+    "current_ma": 45.805,
+    "power_mw": 151.157,
+    "energy_uj": 1647.6153
+  },
+  {
+    "op": "ecc_p256_exchange",
+    "platform": "stm32f446",
+    "elapsed_ms": 19.8,
+    "current_ma": 45.666,
+    "power_mw": 150.699,
+    "energy_uj": 2983.8371
+  },
+  {
+    "op": "aes256_gcm",
+    "platform": "stm32f446",
+    "elapsed_ms": 0.18,
+    "current_ma": 41.463,
+    "power_mw": 136.829,
+    "energy_uj": 24.6292
+  }
+]

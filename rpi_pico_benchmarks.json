@@ -1,0 +1,52 @@
+[
+  {
+    "scheme": "Kyber512",
+    "platform": "RPiPico_M0+@133MHz",
+    "keygen_ms": 39.124,
+    "encaps_ms": 48.117,
+    "decaps_ms": 52.243,
+    "energy_uj": 11967.727,
+    "ram_kb": 6.2,
+    "fits_sram": true
+  },
+  {
+    "scheme": "Kyber768",
+    "platform": "RPiPico_M0+@133MHz",
+    "keygen_ms": 66.907,
+    "encaps_ms": 75.353,
+    "decaps_ms": 84.067,
+    "energy_uj": 19418.857,
+    "ram_kb": 7.8,
+    "fits_sram": true
+  },
+  {
+    "scheme": "Kyber1024",
+    "platform": "RPiPico_M0+@133MHz",
+    "keygen_ms": 93.427,
+    "encaps_ms": 111.702,
+    "decaps_ms": 112.729,
+    "energy_uj": 27272.216,
+    "ram_kb": 9.4,
+    "fits_sram": true
+  },
+  {
+    "scheme": "ECC-P256",
+    "platform": "RPiPico_M0+@133MHz",
+    "keygen_ms": 34.728,
+    "encaps_ms": 63.288,
+    "decaps_ms": 0.0,
+    "energy_uj": 8409.773,
+    "ram_kb": 5.1,
+    "fits_sram": true
+  },
+  {
+    "scheme": "ECC-P384",
+    "platform": "RPiPico_M0+@133MHz",
+    "keygen_ms": 63.83,
+    "encaps_ms": 119.593,
+    "decaps_ms": 0.0,
+    "energy_uj": 15737.693,
+    "ram_kb": 5.6,
+    "fits_sram": true
+  }
+]

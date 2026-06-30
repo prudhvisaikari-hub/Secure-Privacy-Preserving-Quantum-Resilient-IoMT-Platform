@@ -1,0 +1,530 @@
+{
+  "n_rounds": 50,
+  "n_clients": 5,
+  "n_patients_per_hosp": 500,
+  "local_epochs": 3,
+  "dp_enabled": true,
+  "model_params": 285000,
+  "model_size_kb": 1113.28,
+  "per_round": {
+    "train_ms": 4019.22,
+    "upload_ms": 91.698,
+    "server_ms": 0.568,
+    "download_ms": 91.7,
+    "total_ms": 4203.19,
+    "energy_j": 105.0655
+  },
+  "total": {
+    "wall_time_min": 3.5,
+    "total_energy_kj": 5.2533,
+    "total_comm_mb": 543.59,
+    "electricity_kwh": 0.001459
+  },
+  "dp_comparison": {
+    "with_dp_total_ms": 4203.19,
+    "without_dp_total_ms": 3160.29,
+    "dp_time_overhead_pct": 33.0
+  },
+  "round_details": [
+    {
+      "round": 1,
+      "train_ms": 4196.41,
+      "upload_ms": 91.712,
+      "server_ms": 0.559,
+      "download_ms": 91.686,
+      "total_ms": 4380.37,
+      "energy_j": 109.4953,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 2,
+      "train_ms": 3969.98,
+      "upload_ms": 91.712,
+      "server_ms": 0.577,
+      "download_ms": 91.69,
+      "total_ms": 4153.96,
+      "energy_j": 103.8346,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 3,
+      "train_ms": 3951.36,
+      "upload_ms": 91.7,
+      "server_ms": 0.56,
+      "download_ms": 91.704,
+      "total_ms": 4135.33,
+      "energy_j": 103.3692,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 4,
+      "train_ms": 4091.18,
+      "upload_ms": 91.702,
+      "server_ms": 0.554,
+      "download_ms": 91.703,
+      "total_ms": 4275.13,
+      "energy_j": 106.8645,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 5,
+      "train_ms": 4177.45,
+      "upload_ms": 91.687,
+      "server_ms": 0.57,
+      "download_ms": 91.707,
+      "total_ms": 4361.42,
+      "energy_j": 109.0211,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 6,
+      "train_ms": 4008.96,
+      "upload_ms": 91.698,
+      "server_ms": 0.554,
+      "download_ms": 91.7,
+      "total_ms": 4192.91,
+      "energy_j": 104.8089,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 7,
+      "train_ms": 4053.59,
+      "upload_ms": 91.694,
+      "server_ms": 0.582,
+      "download_ms": 91.697,
+      "total_ms": 4237.56,
+      "energy_j": 105.9244,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 8,
+      "train_ms": 3928.19,
+      "upload_ms": 91.693,
+      "server_ms": 0.565,
+      "download_ms": 91.685,
+      "total_ms": 4112.13,
+      "energy_j": 102.7892,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 9,
+      "train_ms": 4030.34,
+      "upload_ms": 91.689,
+      "server_ms": 0.578,
+      "download_ms": 91.707,
+      "total_ms": 4214.32,
+      "energy_j": 105.3434,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 10,
+      "train_ms": 4166.0,
+      "upload_ms": 91.693,
+      "server_ms": 0.553,
+      "download_ms": 91.697,
+      "total_ms": 4349.94,
+      "energy_j": 108.7347,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 11,
+      "train_ms": 4093.78,
+      "upload_ms": 91.685,
+      "server_ms": 0.582,
+      "download_ms": 91.692,
+      "total_ms": 4277.74,
+      "energy_j": 106.929,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 12,
+      "train_ms": 4128.66,
+      "upload_ms": 91.696,
+      "server_ms": 0.559,
+      "download_ms": 91.7,
+      "total_ms": 4312.62,
+      "energy_j": 107.8015,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 13,
+      "train_ms": 4175.33,
+      "upload_ms": 91.697,
+      "server_ms": 0.585,
+      "download_ms": 91.698,
+      "total_ms": 4359.31,
+      "energy_j": 108.9682,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 14,
+      "train_ms": 4088.94,
+      "upload_ms": 91.686,
+      "server_ms": 0.559,
+      "download_ms": 91.692,
+      "total_ms": 4272.87,
+      "energy_j": 106.8079,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 15,
+      "train_ms": 3862.59,
+      "upload_ms": 91.703,
+      "server_ms": 0.559,
+      "download_ms": 91.71,
+      "total_ms": 4046.57,
+      "energy_j": 101.1502,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 16,
+      "train_ms": 4025.07,
+      "upload_ms": 91.715,
+      "server_ms": 0.57,
+      "download_ms": 91.686,
+      "total_ms": 4209.04,
+      "energy_j": 105.2117,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 17,
+      "train_ms": 4113.63,
+      "upload_ms": 91.714,
+      "server_ms": 0.584,
+      "download_ms": 91.688,
+      "total_ms": 4297.62,
+      "energy_j": 107.4258,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 18,
+      "train_ms": 4133.55,
+      "upload_ms": 91.707,
+      "server_ms": 0.572,
+      "download_ms": 91.705,
+      "total_ms": 4317.53,
+      "energy_j": 107.9239,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 19,
+      "train_ms": 3839.06,
+      "upload_ms": 91.696,
+      "server_ms": 0.574,
+      "download_ms": 91.705,
+      "total_ms": 4023.03,
+      "energy_j": 100.5615,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 20,
+      "train_ms": 3905.14,
+      "upload_ms": 91.709,
+      "server_ms": 0.574,
+      "download_ms": 91.714,
+      "total_ms": 4089.14,
+      "energy_j": 102.2141,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 21,
+      "train_ms": 4025.28,
+      "upload_ms": 91.698,
+      "server_ms": 0.57,
+      "download_ms": 91.712,
+      "total_ms": 4209.26,
+      "energy_j": 105.2174,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 22,
+      "train_ms": 3964.38,
+      "upload_ms": 91.693,
+      "server_ms": 0.562,
+      "download_ms": 91.714,
+      "total_ms": 4148.35,
+      "energy_j": 103.6946,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 23,
+      "train_ms": 4004.35,
+      "upload_ms": 91.711,
+      "server_ms": 0.568,
+      "download_ms": 91.689,
+      "total_ms": 4188.31,
+      "energy_j": 104.6937,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 24,
+      "train_ms": 4087.05,
+      "upload_ms": 91.695,
+      "server_ms": 0.58,
+      "download_ms": 91.71,
+      "total_ms": 4271.04,
+      "energy_j": 106.7614,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 25,
+      "train_ms": 3940.89,
+      "upload_ms": 91.696,
+      "server_ms": 0.583,
+      "download_ms": 91.711,
+      "total_ms": 4124.88,
+      "energy_j": 103.1073,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 26,
+      "train_ms": 3866.04,
+      "upload_ms": 91.704,
+      "server_ms": 0.553,
+      "download_ms": 91.709,
+      "total_ms": 4050.01,
+      "energy_j": 101.2364,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 27,
+      "train_ms": 3937.47,
+      "upload_ms": 91.696,
+      "server_ms": 0.563,
+      "download_ms": 91.704,
+      "total_ms": 4121.44,
+      "energy_j": 103.0218,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 28,
+      "train_ms": 4191.93,
+      "upload_ms": 91.696,
+      "server_ms": 0.557,
+      "download_ms": 91.702,
+      "total_ms": 4375.88,
+      "energy_j": 109.3831,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 29,
+      "train_ms": 4015.4,
+      "upload_ms": 91.704,
+      "server_ms": 0.564,
+      "download_ms": 91.686,
+      "total_ms": 4199.35,
+      "energy_j": 104.9696,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 30,
+      "train_ms": 4011.5,
+      "upload_ms": 91.696,
+      "server_ms": 0.567,
+      "download_ms": 91.7,
+      "total_ms": 4195.46,
+      "energy_j": 104.8723,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 31,
+      "train_ms": 4120.96,
+      "upload_ms": 91.692,
+      "server_ms": 0.575,
+      "download_ms": 91.712,
+      "total_ms": 4304.93,
+      "energy_j": 107.609,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 32,
+      "train_ms": 4194.28,
+      "upload_ms": 91.686,
+      "server_ms": 0.582,
+      "download_ms": 91.71,
+      "total_ms": 4378.26,
+      "energy_j": 109.4419,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 33,
+      "train_ms": 4190.82,
+      "upload_ms": 91.705,
+      "server_ms": 0.572,
+      "download_ms": 91.699,
+      "total_ms": 4374.8,
+      "energy_j": 109.3557,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 34,
+      "train_ms": 3863.65,
+      "upload_ms": 91.701,
+      "server_ms": 0.572,
+      "download_ms": 91.689,
+      "total_ms": 4047.61,
+      "energy_j": 101.176,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 35,
+      "train_ms": 4116.24,
+      "upload_ms": 91.695,
+      "server_ms": 0.558,
+      "download_ms": 91.703,
+      "total_ms": 4300.19,
+      "energy_j": 107.4909,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 36,
+      "train_ms": 3847.52,
+      "upload_ms": 91.694,
+      "server_ms": 0.579,
+      "download_ms": 91.697,
+      "total_ms": 4031.49,
+      "energy_j": 100.7728,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 37,
+      "train_ms": 3822.1,
+      "upload_ms": 91.696,
+      "server_ms": 0.564,
+      "download_ms": 91.697,
+      "total_ms": 4006.06,
+      "energy_j": 100.1373,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 38,
+      "train_ms": 4109.65,
+      "upload_ms": 91.689,
+      "server_ms": 0.556,
+      "download_ms": 91.704,
+      "total_ms": 4293.6,
+      "energy_j": 107.3261,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 39,
+      "train_ms": 4071.77,
+      "upload_ms": 91.697,
+      "server_ms": 0.555,
+      "download_ms": 91.711,
+      "total_ms": 4255.73,
+      "energy_j": 106.3794,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 40,
+      "train_ms": 3993.85,
+      "upload_ms": 91.7,
+      "server_ms": 0.561,
+      "download_ms": 91.699,
+      "total_ms": 4177.81,
+      "energy_j": 104.4313,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 41,
+      "train_ms": 3992.4,
+      "upload_ms": 91.686,
+      "server_ms": 0.578,
+      "download_ms": 91.693,
+      "total_ms": 4176.35,
+      "energy_j": 104.3944,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 42,
+      "train_ms": 4131.94,
+      "upload_ms": 91.713,
+      "server_ms": 0.584,
+      "download_ms": 91.706,
+      "total_ms": 4315.94,
+      "energy_j": 107.8839,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 43,
+      "train_ms": 3861.79,
+      "upload_ms": 91.689,
+      "server_ms": 0.564,
+      "download_ms": 91.691,
+      "total_ms": 4045.73,
+      "energy_j": 101.1292,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 44,
+      "train_ms": 4017.96,
+      "upload_ms": 91.707,
+      "server_ms": 0.575,
+      "download_ms": 91.705,
+      "total_ms": 4201.95,
+      "energy_j": 105.0343,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 45,
+      "train_ms": 3852.23,
+      "upload_ms": 91.704,
+      "server_ms": 0.573,
+      "download_ms": 91.694,
+      "total_ms": 4036.2,
+      "energy_j": 100.8906,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 46,
+      "train_ms": 3837.81,
+      "upload_ms": 91.705,
+      "server_ms": 0.564,
+      "download_ms": 91.701,
+      "total_ms": 4021.78,
+      "energy_j": 100.5304,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 47,
+      "train_ms": 3910.35,
+      "upload_ms": 91.694,
+      "server_ms": 0.573,
+      "download_ms": 91.702,
+      "total_ms": 4094.32,
+      "energy_j": 102.3438,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 48,
+      "train_ms": 4073.61,
+      "upload_ms": 91.699,
+      "server_ms": 0.554,
+      "download_ms": 91.708,
+      "total_ms": 4257.57,
+      "energy_j": 106.4254,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 49,
+      "train_ms": 3877.57,
+      "upload_ms": 91.702,
+      "server_ms": 0.557,
+      "download_ms": 91.69,
+      "total_ms": 4061.52,
+      "energy_j": 101.5239,
+      "bytes_transferred": 11400000
+    },
+    {
+      "round": 50,
+      "train_ms": 4091.01,
+      "upload_ms": 91.69,
+      "server_ms": 0.585,
+      "download_ms": 91.692,
+      "total_ms": 4274.97,
+      "energy_j": 106.8597,
+      "bytes_transferred": 11400000
+    }
+  ]
+}

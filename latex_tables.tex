@@ -1,0 +1,53 @@
+% ╔══ TABLE II: Cryptographic Overhead (paste into paper) ══╗
+\begin{table}[h]
+\centering
+\caption{Cryptographic Overhead on STM32F446RE (Cortex-M4 @ 180~MHz)}
+\label{tab:stm32-overhead}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+Scheme & Platform & $T_\mathsf{kg}$ & $T_\mathsf{enc}$ & $T_\mathsf{dec}$ & RAM (KB) & Code (KB) & $E$ ($\mu$J) \\
+\midrule
+Kyber512 & STM32F446 & 10.956 & 13.138 & 14.096 & 6.2 & 18.4 & 5766.3 \\
+Kyber768 & STM32F446 & 17.873 & 21.169 & 23.143 & 7.8 & 19.1 & 9426.4 \\
+Kyber1024 & STM32F446 & 25.673 & 31.205 & 32.028 & 9.4 & 19.9 & 13504.6 \\
+RSA-2048 & STM32F446 & 1630.092 & 33.014 & 643.391 & 42.0 & 88.3 & 381629.5 \\
+RSA-4096 & STM32F446 & 10951.550 & 67.227 & 2524.643 & 74.0 & 88.3 & 2238479.7 \\
+ECC-P256 & STM32F446 & 9.642 & 17.720 & 0.000 & 5.1 & 22.1 & 3982.8 \\
+ECC-P384 & STM32F446 & 17.577 & 32.885 & 0.000 & 5.6 & 23.4 & 7310.6 \\
+\midrule
+Kyber512 & RPi4B & 0.313 & 0.382 & 0.399 & --- & --- & 1967.77 \\
+Kyber768 & RPi4B & 0.522 & 0.631 & 0.662 & --- & --- & 3266.46 \\
+Kyber1024 & RPi4B & 0.722 & 0.888 & 0.915 & --- & --- & 4544.79 \\
+RSA-2048 & RPi4B & 39.342 & 0.951 & 18.240 & --- & --- & 105360.11 \\
+ECC-P256 & RPi4B & 0.025 & 0.102 & 0.000 & --- & --- & 229.25 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+
+% ╔══ TABLE III: Handshake Latency ══╗
+\begin{table}[h]
+\centering
+\caption{Secure Channel Handshake Latency (RPi4B loopback, 100~Mbit/s)}
+\label{tab:handshake}
+\begin{tabular}{@{}lrrrrl@{}}
+\toprule
+Variant & Mean (ms) & P95 (ms) & Wire (B) & RT OK \\ \midrule
+Kyber512 & 1.84 & 1.86 & 1920 & \checkmark \\
+Kyber768 & 2.60 & 2.63 & 2624 & \checkmark \\
+Kyber1024 & 3.43 & 3.48 & 3488 & \checkmark \\
+RSA-2048 & 68.64 & 70.46 & 838 & \texttimes \\
+\bottomrule\end{tabular}\end{table}
+
+% ╔══ TABLE IV: TVLA Results ══╗
+\begin{table}[h]\centering
+\caption{TVLA Side-Channel Leakage Assessment (500 traces per scheme)}
+\label{tab:tvla}
+\begin{tabular}{@{}lrrl@{}}\toprule
+Scheme & max$|t|$ & Leaking pts & Verdict \\ \midrule
+Kyber512 & 7.052 & 81 & LEAKING \\
+RSA-2048 & 3.680 & 0 & CONSTANT-TIME OK \\
+ECC-P256 & 2.807 & 0 & CONSTANT-TIME OK \\
+AES-256 & 8.617 & 18 & LEAKING \\
+\bottomrule\end{tabular}\end{table}

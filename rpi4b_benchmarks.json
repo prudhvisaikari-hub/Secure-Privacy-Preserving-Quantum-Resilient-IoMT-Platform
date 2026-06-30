@@ -1,0 +1,93 @@
+[
+  {
+    "scheme": "Kyber512",
+    "platform": "RPi4B_CA72@1.8GHz",
+    "keygen_ms": 0.3135,
+    "encaps_ms": 0.3839,
+    "decaps_ms": 0.3975,
+    "total_ms": 1.0948,
+    "energy_uj": 1970.6583,
+    "pk_bytes": 800,
+    "sk_bytes": 1632,
+    "ct_bytes": 768,
+    "backend": "oqs_calibrated"
+  },
+  {
+    "scheme": "Kyber768",
+    "platform": "RPi4B_CA72@1.8GHz",
+    "keygen_ms": 0.5265,
+    "encaps_ms": 0.6356,
+    "decaps_ms": 0.6659,
+    "total_ms": 1.828,
+    "energy_uj": 3290.4864,
+    "pk_bytes": 1184,
+    "sk_bytes": 2400,
+    "ct_bytes": 1088,
+    "backend": "oqs_calibrated"
+  },
+  {
+    "scheme": "Kyber1024",
+    "platform": "RPi4B_CA72@1.8GHz",
+    "keygen_ms": 0.7176,
+    "encaps_ms": 0.8872,
+    "decaps_ms": 0.9065,
+    "total_ms": 2.5113,
+    "energy_uj": 4520.3783,
+    "pk_bytes": 1568,
+    "sk_bytes": 3168,
+    "ct_bytes": 1568,
+    "backend": "oqs_calibrated"
+  },
+  {
+    "scheme": "RSA-2048",
+    "platform": "RPi4B_CA72@1.8GHz",
+    "keygen_ms": 55.4169,
+    "encaps_ms": 0.951,
+    "decaps_ms": 18.24,
+    "total_ms": 74.6079,
+    "energy_uj": 134294.2406,
+    "pk_bytes": 294,
+    "sk_bytes": 1192,
+    "ct_bytes": 256,
+    "backend": "cryptography_lib"
+  },
+  {
+    "scheme": "RSA-4096",
+    "platform": "RPi4B_CA72@1.8GHz",
+    "keygen_ms": 617.2684,
+    "encaps_ms": 1.802,
+    "decaps_ms": 72.11,
+    "total_ms": 691.1804,
+    "energy_uj": 1244124.6602,
+    "pk_bytes": 550,
+    "sk_bytes": 2350,
+    "ct_bytes": 512,
+    "backend": "cryptography_lib"
+  },
+  {
+    "scheme": "ECC-P256",
+    "platform": "RPi4B_CA72@1.8GHz",
+    "keygen_ms": 0.0701,
+    "encaps_ms": 0.124,
+    "decaps_ms": 0.0,
+    "total_ms": 0.1941,
+    "energy_uj": 349.3878,
+    "pk_bytes": 91,
+    "sk_bytes": 121,
+    "ct_bytes": 91,
+    "backend": "cryptography_lib"
+  },
+  {
+    "scheme": "ECC-P384",
+    "platform": "RPi4B_CA72@1.8GHz",
+    "keygen_ms": 0.1912,
+    "encaps_ms": 0.484,
+    "decaps_ms": 0.0,
+    "total_ms": 0.6752,
+    "energy_uj": 1215.3704,
+    "pk_bytes": 120,
+    "sk_bytes": 167,
+    "ct_bytes": 120,
+    "backend": "cryptography_lib"
+  }
+]
